@@ -1,0 +1,10 @@
+a <- c(10, 5, 2, 4, 12)
+mean(a[c(1:3)])
+mean(a[c(1,3)])
+
+score <- c(90, 80, 100, 100, 99)
+names(score) <- c('k','l','j','h','m')
+sum(score)
+mean(score)
+var(score)
+median(score)
